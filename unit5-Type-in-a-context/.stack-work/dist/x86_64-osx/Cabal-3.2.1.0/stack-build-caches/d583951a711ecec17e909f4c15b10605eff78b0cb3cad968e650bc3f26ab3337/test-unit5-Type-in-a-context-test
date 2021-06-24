@@ -1,0 +1,16 @@
+? /Users/andy/Projects/Haskell/get-programming-with-haskell/unit5-Type-in-a-context/.stack-work/dist/x86_64-osx/Cabal-3.2.1.0/build/unit5-Type-in-a-context-test/autogen/Paths_unit5_Type_in_a_context.hs
+: hash: cd1c97429c22431292e832041a909ee2bb4aa94b3981eafec08bb918451d5423
+/Users/andy/Projects/Haskell/get-programming-with-haskell/unit5-Type-in-a-context/test/Spec.hs:
+  hash: ef8d1c0c14bd7951b5db43ad0bc2b1c46ef3c248d621c644d3ddb98bc2a08ecc
+/Users/andy/Projects/Haskell/get-programming-with-haskell/unit5-Type-in-a-context/unit5-Type-in-a-context.cabal:
+  hash: 1556502d9c7381159e06e9b42b316234ff193f822e49f94447880845d11fe4af
+/Users/andy/Projects/Haskell/get-programming-with-haskell/unit5-Type-in-a-context/package.yaml:
+  hash: 603c2187a5798113b299ad667eae9d19f49a9c06e3c01867b3c948b56bb49ead
+? /Users/andy/Projects/Haskell/get-programming-with-haskell/unit5-Type-in-a-context/.stack-work/dist/x86_64-osx/Cabal-3.2.1.0/build/unit5-Type-in-a-context-test/autogen/cabal_macros.h
+: hash: af8b70977ba8ec1d95aa33d166d4a2f4d8c7e85108a1c027fca5a0a410df8b2a
+/Users/andy/Projects/Haskell/get-programming-with-haskell/unit5-Type-in-a-context/ChangeLog.md:
+  hash: aa09e14e716394e9c221bcb3184947c608e6a86d4d67f40f74d8c51a13567cd3
+/Users/andy/Projects/Haskell/get-programming-with-haskell/unit5-Type-in-a-context/README.md:
+  hash: d3d228bfc5831bef2c543c1b961c0d84c56791eca965e873c66e3a98e6e6c82d
+/Users/andy/.stack/programs/x86_64-osx/ghc-8.10.4/lib/ghc-8.10.4/include/ghcversion.h:
+  hash: ddf0d2a5b1862138ade2de39566db63c5db748c6df9abc567bd8b7326ae3838a

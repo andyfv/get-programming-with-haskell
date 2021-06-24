@@ -1,0 +1,66 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.33.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 26ab195f9677db76229f414bf00b94dc3192791328ea529fa0235d0559b7024b
+
+name:           unit2-Types
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/githubuser/unit2-Types#readme>
+homepage:       https://github.com/githubuser/unit2-Types#readme
+bug-reports:    https://github.com/githubuser/unit2-Types/issues
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2021 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    ChangeLog.md
+
+source-repository head
+  type: git
+  location: https://github.com/githubuser/unit2-Types
+
+library
+  exposed-modules:
+      Lesson11.Types
+      Lesson12.CustomTypes
+      Lesson13.TypeClasses
+      Lesson14.Cipher
+      Lesson14.UsingTypeClasses
+  other-modules:
+      Paths_unit2_Types
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+  default-language: Haskell2010
+
+executable unit2-Types-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_unit2_Types
+  hs-source-dirs:
+      app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , unit2-Types
+  default-language: Haskell2010
+
+test-suite unit2-Types-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_unit2_Types
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , unit2-Types
+  default-language: Haskell2010
