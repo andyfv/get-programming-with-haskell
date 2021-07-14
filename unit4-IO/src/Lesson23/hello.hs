@@ -5,7 +5,11 @@ import qualified Data.Text.IO as TIO
 import Data.Semigroup
 
 helloPerson :: T.Text -> T.Text
-helloPerson name = "Hello" <> " " <> name <> "!"
+helloPerson name = 
+    "Hello" 
+    <> " " 
+    <> name 
+    <> "!"
 
 main :: IO ()
 main = do

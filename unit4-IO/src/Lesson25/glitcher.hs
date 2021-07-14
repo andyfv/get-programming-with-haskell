@@ -1,18 +1,10 @@
-import System.Random
-import System.Environment
-import qualified Data.ByteString as B
-import qualified Data.ByteString.Char8 as BC
-import Control.Monad
+module Lesson25.Glitcher 
+    ( glitchActions
+    )
+    where
 
-main :: IO ()
-main = do
-    args <- getArgs
-    let fileName = head args
-    imageFile <- BC.readFile fileName
-    glitched  <- foldM (\bytes func -> func bytes) imageFile glitchActions
-    let gltichtedFileName = mconcat ["glitched_",fileName]
-    BC.writeFile gltichtedFileName glitched
-    print "all done!"
+import System.Random
+import qualified Data.ByteString.Char8 as BC
 
 
 glitchActions :: [BC.ByteString -> IO BC.ByteString]
